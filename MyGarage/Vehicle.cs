@@ -7,7 +7,7 @@ namespace MyGarage
     abstract class Vehicle
     {
         public int FuelCapacity { get; set; }
-        public CarColor CarColor { get; set; }
+        public Color Color { get; set; }
         public int PassengerOccupancy { get; set; }
 
         public void Refueling()
@@ -19,7 +19,7 @@ namespace MyGarage
 
     }
 
-    enum CarColor
+    enum Color
     {
         red,
         black,
