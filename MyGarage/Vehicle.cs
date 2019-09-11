@@ -15,8 +15,11 @@ namespace MyGarage
             Console.WriteLine("Refueling");
         }
 
+        public void Landing()
+        {
+            Console.WriteLine("Landing the plane");
+        }
         public abstract void Driving();
-
     }
 
     enum Color

@@ -20,11 +20,11 @@ namespace MyGarage
 
         public override void Driving()
         {
-            Console.WriteLine("Flying the aircraft");
+            Console.WriteLine("Flying the plane");
         }
-        public void Braking()
+        public void Landing()
         {
-            Console.WriteLine("Landing the aircraft");
+            base.Landing();
         }
 
     }

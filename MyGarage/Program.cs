@@ -1,12 +1,24 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace MyGarage
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
-            Console.WriteLine("Hello World!");
+            // Build a collection of all vehicles that fly
+            var allVehicles = new List<string>()
+            {
+
+            }
+            // With a single `foreach`, have each vehicle Fly()
+
+            // Build a collection of all vehicles that operate on roads
+            // With a single `foreach`, have each road vehicle Drive()
+
+            // Build a collection of all vehicles that operate on water
+            // With a single `foreach`, have each water vehicle Drive()
         }
     }
 }
