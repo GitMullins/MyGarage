@@ -8,7 +8,11 @@ namespace MyGarage
     {
         public void DriftAndDrag()
         {
-            Console.WriteLine("drift and drag race in style")
+            Console.WriteLine($"Gallons of fuel = {base.FuelCapacity}");
+            base.Driving();
+            base.Braking();
+            Console.WriteLine("drifting and dragging in style");
+            Console.WriteLine($"Gallons of fuel now = {base.FuelCapacity - 2}");
         }
     }
 }

@@ -7,11 +7,9 @@ namespace MyGarage
     {
         public static void Main()
         {
+            var cars = new Bmw5series();
+            cars.DriftAndDrag();
             // Build a collection of all vehicles that fly
-            var allVehicles = new List<string>()
-            {
-
-            }
             // With a single `foreach`, have each vehicle Fly()
 
             // Build a collection of all vehicles that operate on roads

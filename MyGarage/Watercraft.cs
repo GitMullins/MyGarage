@@ -13,7 +13,7 @@ namespace MyGarage
             PassengerOccupancy = 6;
         }
 
-        public void Refueling()
+        public new void Refueling()
         {
             base.Refueling();
         }
